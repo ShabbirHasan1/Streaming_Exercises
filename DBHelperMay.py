@@ -32,7 +32,7 @@ class DBHelper(EWrapper, EClient):
 
         try:
             connection = mysql.connector.connect(host='localhost',
-                                                 database='javeddb',
+                                                 database='nqdatabase',
                                                  user='root',
                                                  password='suite203',
                                                  auth_plugin='mysql_native_password')
